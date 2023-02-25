@@ -1,7 +1,5 @@
 import rospy
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QWidget, QMessageBox
 
 
 def q_info(parent: QWidget, msg: str) -> None:
