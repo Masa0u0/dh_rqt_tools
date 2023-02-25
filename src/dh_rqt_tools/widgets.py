@@ -22,3 +22,10 @@ class ComboBox(QComboBox):
 
     def wheelEvent(self, e: QWheelEvent) -> None:
         e.ignore()
+
+
+class Slider(QSlider):
+    """ QSliderのスクロールイベントを無効化したもの． """
+
+    def wheelEvent(self, e: QWheelEvent) -> None:
+        e.ignore()
